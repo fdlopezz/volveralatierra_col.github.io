@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Reserva</title>
+   <link rel="icon" type="image/png" href="assets/img/logo.jpg">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<section class="header">
+
+   <a href="inicio.html" class="logo">Reserva</a>
+
+   <nav class="navbar">
+      <a href="inicio.html">Inicio</a>
+      <a href="about.html">Nosotros</a>
+      <a href="imagenes.html">Imágenes</a>
+      <a href="package.html">Paquetes</a>
+      <a href="reserva.html">Reservas</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends -->
+
+<div class="heading" style="background:url(images/header-bg-3.png) no-repeat">
+   <h1>Reserva Ahora</h1>
+</div>
+
+<!-- booking section starts  -->
+
+<section class="booking">
+
+   <h1 class="heading-title">Reserve su viaje!</h1>
+
+   <form action="book_form.php" method="post" class="book-form"> 
+
+      <div class="flex">
+         <div class="inputBox">
+            <span>Nombre :</span>
+            <input type="text" placeholder="Ingrese su nombre" name="name">
+         </div>
+         <div class="inputBox">
+            <span>email :</span>
+            <input type="email" placeholder="Ingrese su Email" name="email">
+         </div>
+         <div class="inputBox">
+            <span>Celular :</span>
+            <input type="number" placeholder="Ingrese su Número Telefonico" name="phone">
+         </div>
+         <div class="inputBox">
+            <span>Dirección :</span>
+            <input type="text" placeholder="Ingrese su Dirección" name="address">
+         </div>
+         <div class="inputBox">
+            <span>Lugar :</span>
+            <input type="text" placeholder="Lugar que desea Visitar" name="location">
+           
+         </div>
+         <div class="inputBox">
+            <span>Personas :</span>
+            <input type="number" placeholder="Numero de Personas" name="guests">
+         </div>
+         <div class="inputBox">
+            <span>Entrada :</span>
+            <input type="date" name="arrivals">
+         </div>
+         <div class="inputBox">
+            <span>Salida :</span>
+            <input type="date" name="leaving">
+         </div>
+      </div>
+
+      <input type="submit" value="enviar" class="btn" name="send">
+
+   </form>
+
+</section>
+
+<!-- booking section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>Enlaces Rápidos</h3>
+         <a href="inicio.html"> <i class="fas fa-angle-right"></i> Inicio</a>
+         <a href="about.html"> <i class="fas fa-angle-right"></i> Nosotros</a>
+         <a href="package.html"> <i class="fas fa-angle-right"></i> Paquetes</a>
+         <a href="reserva.html"> <i class="fas fa-angle-right"></i> Reservas</a>
+      </div>
+
+      <div class="box">
+         <h3>Enlaces Extras</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> Preguntas</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> Nosotros</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> Política de Privacidad</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> Condiciones de Uso</a>
+      </div>
+
+      <div class="box">
+         <h3>Información de Contacto</h3>
+         <a href="#"> <i class="fas fa-phone"></i> +57 321-749-1489 </a>
+         <a href="#"> <i class="fas fa-phone"></i> +57 321-749-1489 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+         <a href="#"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
+      </div>
+
+      <div class="box">
+         <h3>Síguenos</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+   </div>
+
+   <div class="credit"> © 2022 Todos los derechos reservados  <br>creado por |<span>Volver a la Tierra</span> | </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
